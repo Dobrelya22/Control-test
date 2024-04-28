@@ -16,10 +16,10 @@ class Program
             }
         }
 
-        // Обрезаем результирующий массив до фактического размера с результатами
+        
         Array.Resize(ref resultArray, resultIndex);
 
-        // Вывод результирующего массива
+        
         Console.WriteLine("[" + string.Join(", ", sourceArray) + "] → [" + string.Join(", ", resultArray) + "]");
     }
 }
